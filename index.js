@@ -1,7 +1,8 @@
 const express = require('express');
 const dotenv = require('dotenv');
 const books = require('./books');
-const router = require('./routes/booksRoute')
+const logger = require('express');
+const router = require('./routes/booksRoute');
 
 
 dotenv.config();

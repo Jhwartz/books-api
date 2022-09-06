@@ -1,5 +1,5 @@
 function logger(req, res, next){
-    console.log(`${req.method} ${req.originalurl} ${re.statusCode}`)
+    console.log(`${req.method} ${req.originalurl} ${req.statusCode}`)
 
     next();
 }
